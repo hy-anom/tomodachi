@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* tools */
+.debug {
+  outline: 1px solid red;
+}
+
+/* hero */
+.hero {
+  height: 1000px;
+  background-image: url(../assets/hero-bg.png);
+  background-size: contain;
+  background-position-x: center;
+}
+
+/* profile */
+.profile {
+  height: 480px;
+}
+.profile .icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -70px;
+  margin-bottom: 20px;
+}
+.profile .card {
+  height: 420px;
+  max-width: 420px;
+  background-repeat: no-repeat;
+  padding: 20px 80px;
+}
+.profile .icon-1{
+  background-image: url(../assets/profile-avatars.png);
+}
+.profile .icon-2{
+  background-image: url(../assets/profile-katana.png);
+}
+.profile .icon-3{
+  background-image: url(../assets/profile-blender.png);
+  background-size: 75%;
+}
+.profile .card-1 {
+  background-image: url(../assets/profile-bg-1.png);
+  background-position: right;
+}
+.profile .card-2 {
+  background-image: url(../assets/profile-bg-2.png);
+  background-position: center;
+}
+.profile .card-3 {
+  background-image: url(../assets/profile-bg-3.png);
+  background-position: left;
+}
+/* profile ends */
+
+/* grids */
+.avatar-grids {
+  padding-top: 200px;
+}
+.avatar-grids-top {
+  background-image: url(../assets/bg-yellow-top.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: bottom;
+  height: 300px;
+  width: 100%;
+}
+.avatar-grids-bottom {
+  background-image: url(../assets/bg-yellow-bottom.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: top;
+  height: 160px;
+  width: 100%;
+}
+.avatar-photo {
+  height: 220px;
+  width: 220px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.photo-1 {
+  background-image: url(../assets/avatars/avatar-astronaut.png);
+}
