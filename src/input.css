@@ -88,3 +88,34 @@
 .photo-1 {
   background-image: url(../assets/avatars/avatar-astronaut.png);
 }
+
+/* promotion */
+.promotion-banner {
+  background-image: url(../assets/promotion-avatars.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.promotion-card {
+  background-image: url(../assets/promotion-orange.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.promotion-guys {
+  background-image: url(../assets/promotion-guys.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* contact */
+.contact-gradient {
+  background: rgb(252,101,36);
+  background: linear-gradient(rgba(252,101,36,1) 0%, rgba(231,38,3,1) 100%);
+  box-shadow: 0px -10px 40px 0px #F6531B80;
+}
+
+.contact-button {
+  box-shadow: 0px 4px 40px 0px #76220580;
+}
