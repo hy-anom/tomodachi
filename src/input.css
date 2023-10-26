@@ -119,3 +119,75 @@
 .contact-button {
   box-shadow: 0px 4px 40px 0px #76220580;
 }
+
+
+/* textures */
+
+.bg-texture-flower {
+  background-image: url(../assets/texture/flower-texture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-50-texture-grids {
+  background-image: url(../assets/texture/50-texture.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: center;
+  background-position-y: top;
+}
+
+.bg-shock-texture {
+  background-image: url(../assets/texture/shock-texture.png);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  margin-top: -300px;
+  padding-top: 300px;
+  margin-bottom: -300px;
+  padding-bottom: 300px;
+}
+
+.bg-texture-wavy {
+  background-image: url(../assets/texture/wavy-texture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -300px;
+  padding-top: 300px;
+  margin-bottom: -300px;
+  padding-bottom: 300px;
+}
+
+
+
+/* specific to 2nd page */
+.hero-warped {
+  background-image: url(../assets/hero-warped.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height:462px;
+  width: 100%;
+  margin-bottom: -230px;
+}
+
+.bg-50-texture-hero {
+  background-image: url(../assets/texture/50-texture.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-x: center;
+  background-position-y: -40px;
+}
+
+.bg-texture-wavy-grids {
+  background-image: url(../assets/texture/wavy-texture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -300px;
+  padding-top: 300px;
+  margin-bottom: -300px;
+  padding-bottom: 300px;
+}
