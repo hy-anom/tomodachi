@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  content: [],
   theme: {
     extend: {
       backgroundImage: {
@@ -19,7 +20,9 @@ module.exports = {
       'golden-yellow': '#FFB906',
       'orange': '#FC5A24',
       'lavender': '#7C69E7',
+      'ghost-white': '#F6F6FE',
     }
   },
   plugins: [],
 }
+
