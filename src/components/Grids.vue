@@ -206,7 +206,7 @@ export default defineComponent({
                   class="w-60 rounded-lg bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
                   <div class="avatar-photo"
-                    :style="{ backgroundImage: `url('/avatars/unique/${unique.image}')` }" />
+                    :style="{ backgroundImage: `url('/tomodachi/avatars/unique/${unique.image}')` }" />
                   <p class="flex items-center gap-2 mt-2 px-2">
                     <span class="font-bold text-xl">{{ unique.title }}</span>
                     <!-- <span class="inline-block bg-lavender uppercase py-0.5 px-1.5 text-white rounded text-xs">Subs</span> -->
@@ -218,7 +218,7 @@ export default defineComponent({
                   class="w-60 rounded-lg bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
                   <div class="avatar-photo"
-                    :style="{ backgroundImage: `url('/avatars/profession/${profession.image}')` }" />
+                    :style="{ backgroundImage: `url('/tomodachi/avatars/profession/${profession.image}')` }" />
                   <p class="flex items-center gap-2 mt-2 px-2">
                     <span class="font-bold text-xl">{{ profession.title }}</span>
                   </p>
@@ -229,7 +229,7 @@ export default defineComponent({
                   class="w-60 rounded-lg bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
                   <div class="avatar-photo"
-                    :style="{ backgroundImage: `url('/avatars/freebies/${freebies.image}')` }" />
+                    :style="{ backgroundImage: `url('/tomodachi/avatars/freebies/${freebies.image}')` }" />
                   <p class="flex items-center gap-2 mt-2 px-2">
                     <span class="font-bold text-xl">{{ freebies.title }}</span>
                   </p>
