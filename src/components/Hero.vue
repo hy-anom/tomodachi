@@ -161,14 +161,14 @@ export default defineComponent({
     class="hero flex flex-col items-center justify-center text-egg-white bg-no-repeat mb-40 relative overflow-hidden">
     <div class="absolute hero-animation-wrapper">
       <div class="flex rotate--2">
-        <div class="flex gap-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
+        <div class="flex gap-5 mr-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
           <div v-for="unique, index in uniqueList" class="w-60 rounded-lg" :key="index">
             <div class="avatar-photo" :style="{ backgroundImage: `url('/tomodachi/avatars/unique/${unique.image}')` }" />
           </div>
         </div>
       </div>
       <div class="flex mt-6 rotate--2">
-        <div class="flex gap-5" v-for="count, i in 5" :class="{ 'slides-hero': i < 1 }" :key="i">
+        <div class="flex gap-5 mr-5" v-for="count, i in 5" :class="{ 'slides-hero': i < 1 }" :key="i">
           <div v-for="profession, index in professionList" class="w-60 rounded-lg"
             :keys="index">
             <div class="avatar-photo"
@@ -177,7 +177,7 @@ export default defineComponent({
         </div>
         </div>
       <div class="flex mt-6 rotate--2">
-        <div class="flex gap-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
+        <div class="flex gap-5 mr-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
           <div v-for="freebies, index in freebiesList" class="w-60 rounded-lg" :keys="index">
             <div class="avatar-photo"
               :style="{ backgroundImage: `url('/tomodachi/avatars/freebies/${freebies.image}')` }" />
@@ -211,14 +211,14 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .hero {
-  height: 840px;
+  height: 860px;
   position: relative;
 }
 
 .hero-animation-wrapper {
   z-index: -1;
   filter: opacity(0.25);
-  margin-top: -65px;
+  margin-top: -90px;
 }
 
 .rotate--2 {
@@ -237,7 +237,7 @@ export default defineComponent({
 .ribbon-container {
   transform: rotate(-2deg);
   position: absolute;
-  bottom: -40px;
+  bottom: -20px;
 
 }
 
