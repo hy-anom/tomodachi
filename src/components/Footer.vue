@@ -27,25 +27,25 @@
         </div>
         <div class="flex gap-6 flex-1">
           <div class="flex flex-col gap-6 flex-1">
-            <p class="font-bold">Orenji Studio</p>
-            <p>Studio website</p>
-            <p>Pro access</p>
-            <p>Custom works</p>
-            <p>Freebies</p>
+            <a class="font-bold">Orenji Studio</a>
+            <a>Studio website</a>
+            <a>Pro access</a>
+            <a>Custom works</a>
+            <a>Freebies</a>
           </div>
           <div class="flex flex-col gap-6 flex-1">
-            <p class="font-bold">Products</p>
-            <p>UI Kits</p>
-            <p>3D & 2D Illustrations</p>
-            <p>Mockups</p>
-            <p>Fonts</p>
+            <a class="font-bold">Products</a>
+            <a>UI Kits</a>
+            <a>3D & 2D Illustrations</a>
+            <a>Mockups</a>
+            <a>Fonts</a>
           </div>
           <div class="flex flex-col gap-6 flex-1">
-            <p class="font-bold">Info</p>
-            <p>Terms and condition</p>
-            <p>License</p>
-            <p>Contact us</p>
-            <p>F.A.Q</p>
+            <a class="font-bold">Info</a>
+            <a>Terms and condition</a>
+            <a>License</a>
+            <a>Contact us</a>
+            <a>F.A.Q</a>
           </div>
         </div>
       </div>

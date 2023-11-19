@@ -5,6 +5,15 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "Criteria";
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: local('Criteria'), url("./font/CriteriaCF-Regular.woff2") format("woff2"), url("./font/CriteriaCF-Regular.woff") format("woff");
+}
+
 body {
   min-height: 100vh;
   background: #000;

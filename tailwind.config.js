@@ -3,10 +3,8 @@ module.exports = {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   content: [],
   theme: {
-    extend: {
-      backgroundImage: {
-        'hero-background': "url('/assets/hero-bg.png')",
-      }
+    fontFamily: {
+      'criteria': ['Criteria'],
     },
     colors: {
       transparent: 'transparent',

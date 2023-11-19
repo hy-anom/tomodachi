@@ -168,10 +168,10 @@ export default defineComponent({
       <div class="fade-position h-[100px] w-full bg-gradient-to-b from-golden-yellow to-transparent to-70%"> </div>
       <div class="bg-texture-wavy-grids bg-golden-yellow pt-20">
         <div class=" bg-50-texture-grids w-full pt-20 relative">
-          <div class="flex flex-col items-center tracking-tight">
+          <div class="flex flex-col items-center tracking-tight font-criteria">
             <h2 class="text-8xl uppercase font-bold mb-6">50 Avatars</h2>
-            <p class="text-6xl uppercase text-white bg-lavender font-bold mb-3 px-2.5 pb-2.5 pt-1">counting with</p>
-            <p class="text-6xl uppercase text-white bg-lavender font-bold p-2.5 pb-2.5 pt-1">monthly updates</p>
+            <p class="text-6xl uppercase text-white bg-lavender font-bold mb-3 px-2.5 pb-2.5 pt-2.5">counting with</p>
+            <p class="text-6xl uppercase text-white bg-lavender font-bold p-2.5 pb-2.5 pt-2.5">monthly updates</p>
           </div>
           <!-- tab starts -->
           <div class="mt-10 flex flex-col items-center pb-32">
@@ -244,7 +244,7 @@ export default defineComponent({
               class="flex items-center gap-8 bg-black text-xl text-white py-5 px-10 rounded-full font-bold tilt-shake">
               <p><img src="../assets/images/icons/fluent-emoji_megaphone.png" class="w-12 h-12"></p>
               <p>More avatars to come!</p>
-              <p class="text-gray-50">Check it out</p>
+              <p class="text-white opacity-50">Check it out</p>
             </button>
           </div>
         </div>
@@ -259,7 +259,6 @@ export default defineComponent({
   margin-bottom: -100px;
   position: relative;
   z-index: 20;
-  margin-top: -8px;
 }
 
 .avatar-grids {
@@ -272,7 +271,7 @@ export default defineComponent({
   background-size: contain;
   background-position-x: center;
   background-position-y: bottom;
-  height: 200px;
+  height: 300px;
   width: 100%;
 }
 

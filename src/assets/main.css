@@ -8,11 +8,11 @@
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
-@media (hover: hover) {
-  a:hover {
-  }
+a:hover {
+  color: #FC5A24; 
 }

@@ -160,15 +160,15 @@ export default defineComponent({
   <section id="hero"
     class="hero flex flex-col items-center justify-center text-egg-white bg-no-repeat mb-40 relative overflow-hidden">
     <div class="absolute hero-animation-wrapper">
-      <div class="flex">
-        <div class="flex" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
+      <div class="flex rotate--2">
+        <div class="flex gap-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
           <div v-for="unique, index in uniqueList" class="w-60 rounded-lg" :key="index">
             <div class="avatar-photo" :style="{ backgroundImage: `url('/tomodachi/avatars/unique/${unique.image}')` }" />
           </div>
         </div>
       </div>
-      <div class="flex mt-6">
-        <div class="flex" v-for="count, i in 5" :class="{ 'slides-hero': i < 1 }" :key="i">
+      <div class="flex mt-6 rotate--2">
+        <div class="flex gap-5" v-for="count, i in 5" :class="{ 'slides-hero': i < 1 }" :key="i">
           <div v-for="profession, index in professionList" class="w-60 rounded-lg"
             :keys="index">
             <div class="avatar-photo"
@@ -176,8 +176,8 @@ export default defineComponent({
           </div>
         </div>
         </div>
-      <div class="flex mt-6">
-        <div class="flex" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
+      <div class="flex mt-6 rotate--2">
+        <div class="flex gap-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
           <div v-for="freebies, index in freebiesList" class="w-60 rounded-lg" :keys="index">
             <div class="avatar-photo"
               :style="{ backgroundImage: `url('/tomodachi/avatars/freebies/${freebies.image}')` }" />
@@ -186,7 +186,7 @@ export default defineComponent({
       </div>
     </div>
     <h2 class="text-3xl bg-golden-yellow rounded-lg py-2.5 px-8 font-bold text-black">High quality indeed.</h2>
-    <h1 class="text-6xl leading-tight font-bold text-center tracking-tight mt-5">
+    <h1 class="text-6xl leading-tight font-bold text-center tracking-tight mt-5 font-criteria">
       VERY HIGH QUALITY <br>
       AND HIGHLY <span class="text-orange">DETAILED</span><br>
       3D MODELS
@@ -217,14 +217,17 @@ export default defineComponent({
 
 .hero-animation-wrapper {
   z-index: -1;
-  transform: rotate(-2deg);
   filter: opacity(0.25);
-  top: -12px;
+  margin-top: -65px;
+}
+
+.rotate--2 {
+  transform: rotate(-2deg);
 }
 
 .avatar-photo {
-  height: 220px;
-  width: 220px;
+  height: 240px;
+  width: 240px;
   background-position-x: center;
   background-position-y: bottom;
   background-repeat: no-repeat;
@@ -232,9 +235,9 @@ export default defineComponent({
 }
 
 .ribbon-container {
-  transform: rotate(-2.2deg);
+  transform: rotate(-2deg);
   position: absolute;
-  bottom: 40px;
+  bottom: -40px;
 
 }
 
@@ -261,7 +264,7 @@ export default defineComponent({
 }
 
 .slides-hero {
-  animation: bannermovehero 40s linear infinite;
+  animation: bannermovehero 300s linear infinite;
 
   @keyframes bannermovehero {
     0% {

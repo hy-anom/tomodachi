@@ -9,22 +9,22 @@
         <div class="profile-card">
           <div class="card card-1 flex flex-col items-center">
             <div class="profile-icon h-60 w-60 icon icon-1"></div>
-            <h3 class="text-xl font-bold uppercase leading-6">Highly detailed 3D character models.</h3>
-            <p class="text-xl font-light mt-6 text-gray-50">Very high-quality and highly-detailed 3D character models.</p>
+            <h3 class="text-xl font-bold uppercase leading-6 font-criteria">Highly detailed 3D character models.</h3>
+            <p class="text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
           </div>
         </div>
         <div class="profile-card">
           <div class="card card-2 flex flex-col items-center">
             <div class="profile-icon h-60 w-60 icon icon-2"></div>
-            <h3 class="text-xl font-bold uppercase leading-6">3000x3000 px resolution.</h3>
-            <p class="text-xl font-light mt-6 text-gray-50">Very high-quality and highly-detailed 3D character models.</p>
+            <h3 class="text-xl font-bold uppercase leading-6 font-criteria">3000x3000 px resolution.</h3>
+            <p class="text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
           </div>
         </div>
         <div class="profile-card">
           <div class="card card-3 flex flex-col items-center">
             <div class="profile-icon h-60 w-60 icon icon-3"></div>
-            <h3 class="text-xl font-bold uppercase leading-6">3D Blender files customizations.</h3>
-            <p class="text-xl font-light mt-6 text-gray-50">Very high-quality and highly-detailed 3D character models.</p>
+            <h3 class="text-xl font-bold uppercase leading-6 font-criteria">3D Blender files customizations.</h3>
+            <p class="text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
           </div>
         </div>
       </div>
@@ -90,8 +90,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  margin-top: -280px;
-  padding-top: 280px;
+  margin-top: -200px;
+  padding-top: 200px;
   margin-bottom: -350px;
   padding-bottom: 300px;
 }

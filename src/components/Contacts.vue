@@ -6,7 +6,7 @@
   <section id="contact" class="flex justify-center w-full mt-20">
     <div class="contact-gradient flex-1">
       <div class="bg-texture-flower p-20 flex flex-col items-center flex-1">
-        <p class="text-white text-5xl uppercase font-bold text-center max-w-[800px]">Wanna custom your own avatar? let’s get contact</p>
+        <p class="text-white text-5xl uppercase font-bold text-center max-w-[800px] leading-normal font-criteria">Wanna custom your own avatar? let’s get contact</p>
         <div class="flex justify-center mt-14">
           <div class="text-3xl py-7 bg-golden-yellow rounded-2xl font-bold text-center w-[420px] contact-button effect-button">Contact us</div>
         </div>

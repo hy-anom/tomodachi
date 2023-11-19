@@ -5,10 +5,10 @@
 <template>
   <section class="mt-20 pb-10 flex justify-center w-full">
     <div class="bg-shock-texture flex flex-col items-center flex-1">
-      <div class="flex flex-col items-center tracking-tight">
+      <div class="flex flex-col items-center tracking-tight font-criteria">
         <h2 class="text-8xl uppercase font-bold mb-6 text-white">Exclusive</h2>
-        <p class="text-6xl uppercase text-white bg-lavender font-bold mb-3 px-2.5 pb-2.5 pt-1">Character avatar</p>
-        <p class="text-6xl uppercase text-white bg-lavender font-bold p-2.5 pb-2.5 pt-1">and profession</p>
+        <p class="text-6xl uppercase text-white bg-lavender font-bold mb-3 px-2.5 pb-2.5 pt-2.5">Character avatar</p>
+        <p class="text-6xl uppercase text-white bg-lavender font-bold p-2.5 pb-2.5 pt-2.5">and profession</p>
       </div>
       <div class="mt-20 flex gap-5">
         <div class="promotion-banner w-[733px] h-[400px] flex items-end justify-center pb-4">
@@ -32,7 +32,7 @@
       </div>
 
       <div class="promotion-guys w-[1056px] h-[360px] flex flex-col justify-between items-baseline mt-32 p-12 bg-golden-yellow rounded-3xl">
-        <p class="text-3xl uppercase w-[370px] font-bold leading-tight tracking-tight">Get our regular avatar for free, download now</p>
+        <p class="text-3xl uppercase w-[370px] font-bold leading-tight tracking-tight font-criteria">Get our regular avatar for free, download now</p>
         <div class="bg-dark-gray effect-button rounded-2xl text-white text-2xl font-bold px-20 py-6 flex gap-8">
           <span>Download</span>
         </div>
