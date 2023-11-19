@@ -89,10 +89,10 @@
   background-image: url(../assets/images/texture/wavy-texture.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  margin-top: -160px;
-  padding-top: 160px;
-  margin-bottom: -300px;
+  background-position: top;
+  margin-top: -280px;
+  padding-top: 280px;
+  margin-bottom: -350px;
   padding-bottom: 300px;
 }
 

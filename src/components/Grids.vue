@@ -5,151 +5,151 @@ export default defineComponent({
     return {
       activeTab: 'unique',
       uniqueList: [{
-        image: '3 - Albert Einstein 3.png',
-        title: 'Albert Einstein'
+        image: 'miyamoto.png',
+        title: 'Shigeru Miyamoto'
       }, {
-        image: '4 - Freddie Mercury 1.png',
-        title: 'Freddie Mercury',
+        image: 'ali.png',
+        title: 'Mohammad Ali',
       }, {
-        image: '6 - Charlie Chaplin 2.png',
-        title: 'Charlie Chaplin',
-      }, {
-        image: '10 - Steve Jobs 1.png',
-        title: 'Steve Jobs',
-      }, {
-        image: '11 - Donald Trump 2.png',
-        title: 'Donald Trump',
-      }, {
-        image: '12 - Kim Jong Un 2 2.png',
-        title: 'Kim Jong Un',
-      }, {
-        image: '14 - Miyamoto Musashi.png',
-        title: 'Miyamoto Musashi',
-      }, {
-        image: '15 - Oda Obunaga 1.png',
-        title: 'Oda Obunaga',
-      }, {
-        image: '16 - Hattori Hanzo 1.png',
-        title: 'Hattori Hanzo',
-      }, {
-        image: '17 - Sherlock Holmes 1.png',
-        title: 'Sherlock Holmes',
-      }, {
-        image: '18 - Le Bron James Ver 2 1.png',
-        title: 'Le Bron James',
-      }, {
-        image: '19 - Elvis Presley.png',
-        title: 'Elvis Presley',
-      }, {
-        image: '21 - Lionel Messi.png',
-        title: 'Lionel Messi',
-      }, {
-        image: '22 - Angela Merkel 1.png',
+        image: 'merkel.png',
         title: 'Angela Merkel',
       }, {
-        image: '25 - Shigeru Miyamoto 1.png',
-        title: 'Shigeru Miyamoto',
+        image: 'messi.png',
+        title: 'Leonel Messi',
       }, {
-        image: '29 - Mohammad Ali 2.png',
-        title: 'Mohammad Ali',
+        image: 'lebron.png',
+        title: 'Le Bron James',
+      }, {
+        image: 'elvis.png',
+        title: 'Elvis Presley',
+      }, {
+        image: 'sherlock.png',
+        title: 'Sherlock Holmes',
+      }, {
+        image: 'hatori.png',
+        title: 'Hatori Hanzo',
+      }, {
+        image: 'tokugawa.png',
+        title: 'Tokugawa',
+      }, {
+        image: 'musashi.png',
+        title: 'Musashi',
+      }, {
+        image: 'pope.png',
+        title: 'Pope Francis',
+      }, {
+        image: 'trump.png',
+        title: 'Donald Trump',
+      }, {
+        image: 'freddie.png',
+        title: 'Freddie Mercury',
+      }, {
+        image: 'jobs.png',
+        title: 'Steve Jobs',
+      }, {
+        image: 'chaplin.png',
+        title: 'Charlie Chaplin',
+      }, {
+        image: 'kimjongun.png',
+        title: 'Kim Jong Un',
       }],
       professionList: [{
-        image: '1 - Scientist Female - Black - Neutral.png',
-        title: 'Scientist Female - Black',
+        image: 'clown1.png',
+        title: 'Clown 1',
       }, {
-        image: '1 - Scientist Male - White - Neutral.png',
-        title: 'Scientist Male - White',
+        image: 'clown2.png',
+        title: 'Clown 2',
       }, {
-        image: '2 - Army Female - Black - Neutral.png',
-        title: 'Army Female - Black',
+        image: 'hipster1.png',
+        title: 'Hipster 1',
       }, {
-        image: '2 - Army Male - White - Neutral.png',
-        title: 'Army Male - White',
+        image: 'hipster2.png',
+        title: 'Hipster 2',
       }, {
-        image: '3 - Police Female - White - Neutral.png',
-        title: 'Police Female - White',
+        image: 'soldier1.png',
+        title: 'Soldier 1',
       }, {
-        image: '3 - Police Male - Black - Neutral.png',
-        title: 'Police Male - Black',
+        image: 'soldier2.png',
+        title: 'Soldier 2',
       }, {
-        image: '4 - Firefighter Female - White - Neutral.png',
-        title: 'Firefighter Female - White',
+        image: 'firefighter1.png',
+        title: 'Fire Fighter 1',
       }, {
-        image: '4 - Firefighter Male - Black - Neutral.png',
-        title: 'Firefighter Male - Black',
+        image: 'firefighter2.png',
+        title: 'Fire Fighter 2',
       }, {
-        image: '5 - Doctor Female - White - Neutral.png',
-        title: 'Doctor Female - White',
+        image: 'doctor1.png',
+        title: 'Doctor 1',
       }, {
-        image: '5 - Doctor Male - White - Neutral.png',
-        title: 'Doctor Male - White',
+        image: 'doctor1.png',
+        title: 'Doctor 2',
       }, {
-        image: '8 - Cheff Female - White - Neutral.png',
-        title: 'Cheff Female - White',
+        image: 'cop1.png',
+        title: 'Cop 1',
       }, {
-        image: '8 - Cheff Male - White - Neutral.png',
-        title: 'Cheff Male - White',
+        image: 'cop2.png',
+        title: 'Cop 2',
       }, {
-        image: '10 - Programmer Female - Black - Neutral.png',
-        title: 'Programmer Female - Black',
+        image: 'chef1.png',
+        title: 'Chef 1',
       }, {
-        image: '10 - Programmer Male - White - Neutral.png',
-        title: 'Programmer Male - White',
+        image: 'chef2.png',
+        title: 'Chef 2',
       }, {
-        image: '17 - Clown Female - White - Neutral.png',
-        title: 'Clown Female - White',
+        image: 'scientist1.png',
+        title: 'Scientist 1',
       }, {
-        image: '17 - Clown Male - White - Neutral.png',
-        title: 'Clown Male - White',
+        image: 'scientist2.png',
+        title: 'Scientist 2',
       },],
       freebiesList: [{
-        image: '1 - Ordinary Female - Happy - Black.png',
-        title: 'Ordinary Female - Happy - Black',
+        image: 'avatar1.png',
+        title: 'Avatar 1',
       },{
-        image: '1 - Ordinary Male - Happy - Black.png',
-        title: 'Ordinary Male - Happy - Black',
+        image: 'avatar2.png',
+        title: 'Avatar 2',
       },{
-        image: '1 - Ordinary Male - Neutral - Black.png',
-        title: 'Ordinary Male - Neutral - Black',
+        image: 'avatar3.png',
+        title: 'Avatar 3',
       },{
-        image: '1 - Ordinary Male - Neutral - White.png',
-        title: 'Ordinary Male - Neutral - White',
+        image: 'avatar4.png',
+        title: 'Avatar 4',
       },{
-        image: '2 - Ordinary Male - Neutral - Black.png',
-        title: 'Ordinary Male - Neutral - Black',
+        image: 'avatar5.png',
+        title: 'Avatar 5',
       },{
-        image: '2 - Ordinary Male - Neutral - White.png',
-        title: 'Ordinary Male - Neutral - White',
+        image: 'avatar6.png',
+        title: 'Avatar 6',
       },{
-        image: '3 - Ordinary Female - Happy - Black.png',
-        title: 'Ordinary Female - Happy - Black',
+        image: 'avatar7.png',
+        title: 'Avatar 7',
       },{
-        image: '3 - Ordinary Female - Neutral - White.png',
-        title: 'Ordinary Female - Neutral - White',
+        image: 'avatar8.png',
+        title: 'Avatar 8',
       },{
-        image: '3 - Ordinary Male - Happy - White.png',
-        title: 'Ordinary Male - Happy - White',
+        image: 'avatar9.png',
+        title: 'Avatar 9',
       },{
-        image: '3 - Ordinary Male - Neutral - Black.png',
-        title: 'Ordinary Male - Neutral - Black',
+        image: 'avatar10.png',
+        title: 'Avatar 10',
       },{
-        image: '4 - Ordinary Female - Happy - White.png',
-        title: 'Ordinary Female - Happy - White',
+        image: 'avatar11.png',
+        title: 'Avatar 11',
       },{
-        image: '4 - Ordinary Male - Happy - White.png',
-        title: 'Ordinary Male - Happy - White',
+        image: 'avatar12.png',
+        title: 'Avatar 12',
       },{
-        image: '4 - Ordinary Male - Neutral - Black.png',
-        title: 'Ordinary Male - Neutral - Black',
+        image: 'avatar13.png',
+        title: 'Avatar 13',
       },{
-        image: '4 - Ordinary Male - Neutral - White.png',
-        title: 'Ordinary Male - Neutral - White',
+        image: 'avatar14.png',
+        title: 'Avatar 14',
       },{
-        image: '5 - Ordinary Female - Neutral - White.png',
-        title: 'Ordinary Female - Neutral - White',
+        image: 'avatar15.png',
+        title: 'Avatar 15',
       },{
-        image: '5 - Ordinary Male - Neutral - White.png',
-        title: 'Ordinary Male - Neutral - White',
+        image: 'avatar16.png',
+        title: 'Avatar 16',
       }]
     }
   },
@@ -174,7 +174,7 @@ export default defineComponent({
             <p class="text-6xl uppercase text-white bg-lavender font-bold p-2.5 pb-2.5 pt-1">monthly updates</p>
           </div>
           <!-- tab starts -->
-          <div class="mt-10 flex flex-col items-center">
+          <div class="mt-10 flex flex-col items-center pb-32">
             <!-- tab header -->
             <div class="flex bg-white rounded-lg p-5 gap-5 text-3xl font-bold mb-20">
               <div 
@@ -259,7 +259,7 @@ export default defineComponent({
   margin-bottom: -100px;
   position: relative;
   z-index: 20;
-  margin-top: -50px;
+  margin-top: -8px;
 }
 
 .avatar-grids {
@@ -269,10 +269,10 @@ export default defineComponent({
 .avatar-grids-top {
   background-image: url(../assets/images/bg-yellow-top.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position-x: center;
-  background-position-y: top;
-  height: 300px;
+  background-position-y: bottom;
+  height: 200px;
   width: 100%;
 }
 
@@ -281,8 +281,8 @@ export default defineComponent({
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  background-position-y: top;
-  height: 160px;
+  background-position-y: bottom;
+  height: 120px;
   width: 100%;
 }
 
