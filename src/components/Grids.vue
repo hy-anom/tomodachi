@@ -203,35 +203,35 @@ export default defineComponent({
             <div class="flex gap-5 mt-5 flex-wrap justify-center overflow-hidden pb-20 pt-5 max-w-[1200px]">
               <template v-if="activeTab === 'unique'">
                 <div v-for="unique, index in uniqueList"
-                  class="w-60 rounded-lg bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
+                  class="w-60 rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
                   <div class="avatar-photo"
                     :style="{ backgroundImage: `url('/tomodachi/avatars/unique/${unique.image}')` }" />
                   <p class="flex items-center gap-2 mt-2 px-2">
-                    <span class="font-bold text-xl">{{ unique.title }}</span>
+                    <span class="font-bold text-l">{{ unique.title }}</span>
                     <!-- <span class="inline-block bg-lavender uppercase py-0.5 px-1.5 text-white rounded text-xs">Subs</span> -->
                   </p>
                 </div>
               </template>
               <template v-if="activeTab === 'profession'">
                 <div v-for="profession, index in professionList"
-                  class="w-60 rounded-lg bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
+                  class="w-60 rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
                   <div class="avatar-photo"
                     :style="{ backgroundImage: `url('/tomodachi/avatars/profession/${profession.image}')` }" />
                   <p class="flex items-center gap-2 mt-2 px-2">
-                    <span class="font-bold text-xl">{{ profession.title }}</span>
+                    <span class="font-bold text-l">{{ profession.title }}</span>
                   </p>
                 </div>
               </template>
               <template v-if="activeTab === 'freebies'">
                 <div v-for="freebies, index in freebiesList"
-                  class="w-60 rounded-lg bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
+                  class="w-60 rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
                   <div class="avatar-photo"
                     :style="{ backgroundImage: `url('/tomodachi/avatars/freebies/${freebies.image}')` }" />
                   <p class="flex items-center gap-2 mt-2 px-2">
-                    <span class="font-bold text-xl">{{ freebies.title }}</span>
+                    <span class="font-bold text-l">{{ freebies.title }}</span>
                   </p>
                 </div>
               </template>

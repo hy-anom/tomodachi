@@ -23,7 +23,6 @@ import Footer from './components/Footer.vue';
 
 <style>
 .effect-button {
-  display: inline-block;
   transition: all .3s;
   position: relative;
   overflow: hidden;

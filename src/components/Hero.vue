@@ -163,7 +163,7 @@ export default defineComponent({
       <div class="flex rotate--2">
         <div class="flex gap-5 mr-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
           <div v-for="unique, index in uniqueList" class="w-60 rounded-lg" :key="index">
-            <div class="avatar-photo" :style="{ backgroundImage: `url('/tomodachi/avatars/unique/${unique.image}')` }" />
+            <div class="avatar-photo" :style="{ backgroundImage: `url('/tomodachi/avatars-small/unique/${unique.image}')` }" />
           </div>
         </div>
       </div>
@@ -172,7 +172,7 @@ export default defineComponent({
           <div v-for="profession, index in professionList" class="w-60 rounded-lg"
             :keys="index">
             <div class="avatar-photo"
-              :style="{ backgroundImage: `url('/tomodachi/avatars/profession/${profession.image}')` }" />
+              :style="{ backgroundImage: `url('/tomodachi/avatars-small/profession/${profession.image}')` }" />
           </div>
         </div>
         </div>
@@ -180,19 +180,19 @@ export default defineComponent({
         <div class="flex gap-5 mr-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
           <div v-for="freebies, index in freebiesList" class="w-60 rounded-lg" :keys="index">
             <div class="avatar-photo"
-              :style="{ backgroundImage: `url('/tomodachi/avatars/freebies/${freebies.image}')` }" />
+              :style="{ backgroundImage: `url('/tomodachi/avatars-small/freebies/${freebies.image}')` }" />
           </div>
         </div>
       </div>
     </div>
-    <h2 class="text-3xl bg-golden-yellow rounded-lg py-2.5 px-8 font-bold text-black">High quality indeed.</h2>
+    <h2 class="text-3xl bg-golden-yellow rounded-lg py-2.5 px-8 font-bold text-black">Tomodachi 3D Avatar</h2>
     <h1 class="text-6xl leading-tight font-bold text-center tracking-tight mt-5 font-criteria">
       VERY HIGH QUALITY <br>
       AND HIGHLY <span class="text-orange">DETAILED</span><br>
       3D MODELS
     </h1>
     <p class="text-xl	font-bold text-center mt-5">
-      Colorful, cute, unique and full of personalities characters, ready to charm your design
+      Cute 3D avatar for your design. Highly detailed and full of personality
     </p>
     <div class="flex overflow-hidden w-full mt-10 ribbon-container">
       <div v-for="n, i in 10" class="hero-ribbon flex gap-5" :class="{ 'slides': i < 1 }" :key="i">

@@ -33,8 +33,11 @@
 
       <div class="promotion-guys w-[1056px] h-[360px] flex flex-col justify-between items-baseline mt-32 p-12 bg-golden-yellow rounded-3xl">
         <p class="text-3xl uppercase w-[370px] font-bold leading-tight tracking-tight font-criteria">Get our regular avatar for free, download now</p>
-        <div class="bg-dark-gray effect-button rounded-2xl text-white text-2xl font-bold px-20 py-6 flex gap-8">
+        <div class="flex bg-black effect-button-reverse rounded-2xl text-white text-2xl font-bold px-20 py-6 gap-8">
           <span>Download</span>
+          <span>
+            <img src="../assets/images/icons/arrow-down-icon.png" class="w-8 h-8 icon-social">
+          </span>
         </div>
       </div>
     </div>
@@ -70,4 +73,38 @@
   padding-bottom: 300px;
 }
 
+.effect-button-reverse {
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  user-select: none;
+}
+.effect-button-reverse:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.effect-button-reverse:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  transition: all .3s;
+  z-index: -1;
+  background-color: #373737;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+.effect-button-reverse:hover::before {
+  width: 100%;
+}
 </style>
