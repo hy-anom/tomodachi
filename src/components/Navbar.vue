@@ -19,20 +19,16 @@
     </div>
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
       <div class="text-sm lg:flex-grow">
-
       </div>
       <div>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-          <img src="../assets/images/icons/carbon_logo-linkedin.png" class="w-8 h-8 icon-social">
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange mr-8">
+          Our works
         </a>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-          <img src="../assets/images/icons/carbon_logo-pinterest.png" class="w-8 h-8 icon-social">
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange mr-8">
+          Pricing
         </a>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-          <img src="../assets/images/icons/carbon_logo-twitter.png" class="w-8 h-8 icon-social">
-        </a>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-          <img src="../assets/images/icons/carbon_logo-discord.png" class="w-8 h-8 icon-social">
+        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange">
+          Freebies
         </a>
       </div>
     </div>
