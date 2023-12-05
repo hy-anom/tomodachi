@@ -186,14 +186,11 @@ export default defineComponent({
       </div>
     </div>
     <h2 class="text-3xl bg-golden-yellow rounded-lg py-2.5 px-8 font-bold text-black">Tomodachi 3D Avatar</h2>
-    <h1 class="text-6xl leading-tight font-bold text-center tracking-tight mt-5 font-criteria">
-      VERY HIGH QUALITY <br>
-      AND HIGHLY <span class="text-orange">DETAILED</span><br>
-      3D MODELS
+    <h1 class="text-6xl uppercase leading-tight font-bold text-center tracking-tight mt-5 font-criteria">
+      Cute 3D avatar for your design<br> 
+      Highly <span class="text-orange">detailed</span> and<br>
+      full of personality
     </h1>
-    <p class="text-xl	font-bold text-center mt-5">
-      Cute 3D avatar for your design. Highly detailed and full of personality
-    </p>
     <div class="flex overflow-hidden w-full mt-10 ribbon-container">
       <div v-for="n, i in 10" class="hero-ribbon flex gap-5" :class="{ 'slides': i < 1 }" :key="i">
         <span>Creativities</span>
@@ -242,7 +239,7 @@ export default defineComponent({
 }
 
 .hero-ribbon {
-  width: 690px;
+  width: 720px;
   height: 80px;
   flex-shrink: 0;
   text-transform: uppercase;
