@@ -185,11 +185,8 @@ export default defineComponent({
         </div>
       </div>
     </div>
-    <h2 class="text-3xl bg-golden-yellow rounded-lg py-2.5 px-8 font-bold text-black">Tomodachi 3D Avatar</h2>
     <h1 class="text-6xl uppercase leading-tight font-bold text-center tracking-tight mt-5 font-criteria">
-      Cute 3D avatar for your design<br> 
-      Highly <span class="text-orange">detailed</span> and<br>
-      full of personality
+      Cute 3d avatar for your design
     </h1>
     <div class="flex overflow-hidden w-full mt-10 ribbon-container">
       <div v-for="n, i in 10" class="hero-ribbon flex gap-5" :class="{ 'slides': i < 1 }" :key="i">

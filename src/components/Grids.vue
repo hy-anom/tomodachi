@@ -169,9 +169,8 @@ export default defineComponent({
       <div class="bg-texture-wavy-grids bg-golden-yellow pt-20">
         <div class=" bg-50-texture-grids w-full pt-20 relative">
           <div class="flex flex-col items-center tracking-tight font-criteria">
-            <h2 class="text-8xl uppercase font-bold mb-6">50 Avatars</h2>
-            <p class="text-6xl uppercase text-white bg-lavender font-bold mb-3 px-2.5 pb-2.5 pt-2.5">counting with</p>
-            <p class="text-6xl uppercase text-white bg-lavender font-bold p-2.5 pb-2.5 pt-2.5">monthly updates</p>
+            <h2 class="text-8xl uppercase mb-6">50 Avatars</h2>
+            <p class="text-6xl uppercase text-white bg-lavender mb-20 px-2.5 pb-2.5 pt-2.5">And WILL CONTINUE UPDATED!</p>
           </div>
           <!-- tab starts -->
           <div class="mt-10 flex flex-col items-center pb-32">
@@ -243,7 +242,7 @@ export default defineComponent({
             <button
               class="flex items-center gap-8 bg-black text-xl text-white py-5 px-10 rounded-full font-bold tilt-shake">
               <p><img src="../assets/images/icons/fluent-emoji_megaphone.png" class="w-12 h-12"></p>
-              <p>More avatars to come!</p>
+              <p>Browse more avatars!</p>
               <p class="text-white opacity-50">Check it out</p>
             </button>
           </div>

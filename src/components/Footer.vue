@@ -6,11 +6,12 @@
   <section id="footer" class="flex justify-center">
     <div class="bg-white flex-1 pt-10">
       <div class=" text-base tracking-tight flex flex-row py-10 px-40 gap-6">
-        <div class="flex flex-col gap-6 flex-1">
+        <div class="flex flex-col gap-10 flex-1">
           <div class="flex items-flex-start gap-2">
             <img src="../assets/images/logo-orenji.png" class="w-10 h-10">
             <h2 class="font-bold pt-1">Orenji Studio</h2>
           </div>
+          <p class="text-lg tracking-tight"> © 2023 Orenji Studio. All right reserved.</p>
           <p class="max-w-[370px]">Don't spend your time and money to finding visual style and creating designs from zero.
           </p>
           <div class="flex gap-10 mt-3">
@@ -40,17 +41,7 @@
             <a>Mockups</a>
             <a>Fonts</a>
           </div>
-          <div class="flex flex-col gap-6 flex-1">
-            <a class="font-bold">Info</a>
-            <a>Terms and condition</a>
-            <a>License</a>
-            <a>Contact us</a>
-            <a>F.A.Q</a>
-          </div>
         </div>
-      </div>
-      <div class="text-center p-10">
-        <p class="text-lg tracking-tight"> © 2023 Orenji Studio. All right reserved.</p>
       </div>
     </div>
   </section>
