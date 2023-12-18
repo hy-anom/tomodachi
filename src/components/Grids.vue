@@ -162,13 +162,13 @@ export default defineComponent({
 </script>
 
 <template>
-  <section id="avatar-grids" class=" flex flex-col items-center mt-10 pb-10">
+  <section id="avatar-grids" class=" flex flex-col items-center mt-10 pb-10 font-geist">
     <div class="w-full">
       <div class="avatar-grids-top" />
       <div class="fade-position h-[100px] w-full bg-gradient-to-b from-golden-yellow to-transparent to-70%"> </div>
       <div class="bg-texture-wavy-grids bg-golden-yellow pt-20">
         <div class=" bg-50-texture-grids w-full pt-20 relative">
-          <div class="flex flex-col items-center tracking-tight font-criteria">
+          <div class="flex flex-col items-center tracking-tight">
             <h2 class="text-8xl uppercase mb-6">50 Avatars</h2>
             <p class="text-6xl uppercase text-white bg-lavender mb-20 px-2.5 pb-2.5 pt-2.5">And WILL CONTINUE UPDATED!</p>
           </div>

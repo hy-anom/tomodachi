@@ -6,12 +6,12 @@
 }
 
 @font-face {
-  font-family: "Criteria";
+  font-family: "Geist";
   font-weight: 500;
   font-style: normal;
   font-display: auto;
   unicode-range: U+000-5FF;
-  src: local('Criteria'), url("./font/CriteriaCF-Regular.woff2") format("woff2"), url("./font/CriteriaCF-Regular.woff") format("woff");
+  src: local('Geist'), url("./font/Geist-Regular.woff2") format("woff2"), url("./font/Geist-Regular.otf") format("otf");
 }
 
 body {

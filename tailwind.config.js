@@ -4,7 +4,7 @@ module.exports = {
   content: [],
   theme: {
     fontFamily: {
-      'criteria': ['Criteria'],
+      'geist': ['Geist'],
     },
     colors: {
       transparent: 'transparent',

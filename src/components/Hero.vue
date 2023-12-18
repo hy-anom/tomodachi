@@ -158,7 +158,7 @@ export default defineComponent({
 
 <template>
   <section id="hero"
-    class="hero flex flex-col items-center justify-center text-egg-white bg-no-repeat mb-40 relative overflow-hidden">
+    class="hero flex flex-col items-center justify-center text-egg-white bg-no-repeat mb-40 relative overflow-hidden font-geist">
     <div class="absolute hero-animation-wrapper">
       <div class="flex rotate--2">
         <div class="flex gap-5 mr-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
@@ -185,7 +185,7 @@ export default defineComponent({
         </div>
       </div>
     </div>
-    <h1 class="text-6xl uppercase leading-tight font-bold text-center tracking-tight mt-5 font-criteria">
+    <h1 class="text-6xl uppercase leading-tight font-bold text-center tracking-tight mt-5">
       Cute 3d avatar for your design
     </h1>
     <div class="flex overflow-hidden w-full mt-10 ribbon-container">

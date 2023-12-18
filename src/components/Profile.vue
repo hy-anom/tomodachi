@@ -3,27 +3,27 @@
 </script>
 
 <template>
-  <section id="profile" class="flex justify-center w-full">
+  <section id="profile" class="flex justify-center w-full font-geist">
     <div class="flex flex-col items-center bg-texture-wavy pt-40 flex-1">
       <div class="profile flex justify-center gap-5 text-center">
         <div class="profile-card">
           <div class="card card-1 flex flex-col items-center">
             <div class="profile-icon h-60 w-60 icon icon-1"></div>
-            <h3 class="text-xl font-bold uppercase leading-6 font-criteria">Highly detailed 3D character models.</h3>
+            <h3 class="text-xl font-bold uppercase leading-6">Highly detailed 3D character models.</h3>
             <p class="text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
           </div>
         </div>
         <div class="profile-card">
           <div class="card card-2 flex flex-col items-center">
             <div class="profile-icon h-60 w-60 icon icon-2"></div>
-            <h3 class="text-xl font-bold uppercase leading-6 font-criteria">3000x3000 px resolution.</h3>
+            <h3 class="text-xl font-bold uppercase leading-6">3000x3000 px resolution.</h3>
             <p class="text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
           </div>
         </div>
         <div class="profile-card">
           <div class="card card-3 flex flex-col items-center">
             <div class="profile-icon h-60 w-60 icon icon-3"></div>
-            <h3 class="text-xl font-bold uppercase leading-6 font-criteria">INCLUDING TRANSPARENT PNG FILES</h3>
+            <h3 class="text-xl font-bold uppercase leading-6">INCLUDING TRANSPARENT PNG FILES</h3>
             <p class="text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
           </div>
         </div>
@@ -66,8 +66,8 @@
 }
 
 .profile .icon-3 {
-  background-image: url(../assets/images/profile-blender.png);
-  background-size: 75%;
+  background-image: url(../assets/images/transparent-ava.png);
+  background-size: 90%;
 }
 
 .profile .card-1 {

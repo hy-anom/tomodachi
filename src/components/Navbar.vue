@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <nav class="flex items-center justify-between flex-wrap bg-black text-white p-6">
-    <div class="flex items-center flex-shrink-0 mr-6 font-criteria">
+  <nav class="flex items-center justify-between flex-wrap bg-black text-white p-6 font-geist">
+    <div class="flex items-center flex-shrink-0 mr-6">
       <span class="font-semibold text-xl tracking-tight hover:text-orange transition-colors">TOMODACHI</span>
       <span class="text-sm ml-3 text-navbar-text-dark">By <strong>Orenji Studio</strong></span>
     </div>
