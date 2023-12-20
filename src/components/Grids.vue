@@ -206,7 +206,7 @@ export default defineComponent({
                   :keys="index">
                   <div class="avatar-photo"
                     :style="{ backgroundImage: `url('/tomodachi/avatars/unique/${unique.image}')` }" />
-                  <p class="flex items-center gap-2 mt-2 px-2">
+                  <p class="flex items-center justify-center gap-2 mt-2 px-2">
                     <span class="font-bold text-l">{{ unique.title }}</span>
                     <!-- <span class="inline-block bg-lavender uppercase py-0.5 px-1.5 text-white rounded text-xs">Subs</span> -->
                   </p>
@@ -218,7 +218,7 @@ export default defineComponent({
                   :keys="index">
                   <div class="avatar-photo"
                     :style="{ backgroundImage: `url('/tomodachi/avatars/profession/${profession.image}')` }" />
-                  <p class="flex items-center gap-2 mt-2 px-2">
+                  <p class="flex items-center justify-center gap-2 mt-2 px-2">
                     <span class="font-bold text-l">{{ profession.title }}</span>
                   </p>
                 </div>
@@ -229,7 +229,7 @@ export default defineComponent({
                   :keys="index">
                   <div class="avatar-photo"
                     :style="{ backgroundImage: `url('/tomodachi/avatars/freebies/${freebies.image}')` }" />
-                  <p class="flex items-center gap-2 mt-2 px-2">
+                  <p class="flex items-center justify-center gap-2 mt-2 px-2">
                     <span class="font-bold text-l">{{ freebies.title }}</span>
                   </p>
                 </div>
