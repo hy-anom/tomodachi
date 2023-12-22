@@ -12,7 +12,3 @@ a {
   text-decoration: none;
   transition: 0.2s;
 }
-
-a:hover {
-  color: #FC5A24; 
-}

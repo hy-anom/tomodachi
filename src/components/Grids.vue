@@ -239,12 +239,16 @@ export default defineComponent({
           <!-- tab ends -->
           <div
             class="flex items-end justify-center h-[420px] w-full absolute bottom-12 bg-gradient-to-b from-transparent to-golden-yellow to-70%">
-            <button
-              class="flex items-center gap-8 bg-black text-xl text-white py-5 px-10 rounded-full font-bold tilt-shake">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://orenjistudio.gumroad.com/l/Tomodachi-AvatarLibrarybyorenji"
+              class="flex items-center gap-8 bg-black text-xl text-white py-5 px-10 rounded-full font-bold tilt-shake"
+            >
               <p><img src="../assets/images/icons/fluent-emoji_megaphone.png" class="w-12 h-12"></p>
               <p>Browse more avatars!</p>
               <p class="text-white opacity-50">Check it out</p>
-            </button>
+            </a>
           </div>
         </div>
       </div>

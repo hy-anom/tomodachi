@@ -27,7 +27,7 @@
         <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange mr-8">
           Pricing
         </a>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange">
+        <a href="https://orenji.store/assets-category/freebies/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange">
           Freebies
         </a>
       </div>

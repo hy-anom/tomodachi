@@ -8,7 +8,14 @@
       <div class="bg-texture-flower p-20 flex flex-col items-center flex-1">
         <p class="text-white text-5xl uppercase font-bold text-center max-w-[800px] leading-normal">Wanna custom your own avatar? let’s get contact</p>
         <div class="flex justify-center mt-14">
-          <div class="text-3xl py-7 bg-golden-yellow rounded-2xl font-bold text-center w-[420px] contact-button effect-button">Contact us</div>
+          <a 
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://tally.so/r/wkNrkZ"
+            class="text-3xl py-7 bg-golden-yellow rounded-2xl font-bold text-center w-[420px] contact-button effect-button"
+          >
+          Contact us
+          </a>
         </div>
       </div>
     </div>

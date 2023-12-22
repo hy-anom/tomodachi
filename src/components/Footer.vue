@@ -15,13 +15,13 @@
           <p class="max-w-[370px]">Don't spend your time and money to finding visual style and creating designs from zero.
           </p>
           <div class="flex gap-10 mt-3">
-            <a href="#">
+            <a href="https://www.instagram.com/orenji.studio/">
               <img src="../assets/images/icons/simple-line-icons_social-instagram.png" class="w-8 h-8 icon-social">
             </a>
-            <a href="#">
-              <img src="../assets/images/icons/simple-line-icons_social-twitter.png" class="w-8 h-8 icon-social">
+            <a href="https://id.linkedin.com/company/orenji-studio">
+              <img src="../assets/images/icons/simple-line-icons_social-linkedin.png" class="w-8 h-8 icon-social">
             </a>
-            <a href="#">
+            <a href="https://dribbble.com/orenjistudio">
               <img src="../assets/images/icons/simple-line-icons_social-dribbble.png" class="w-8 h-8 icon-social">
             </a>
           </div>
@@ -29,17 +29,17 @@
         <div class="flex gap-6 flex-1">
           <div class="flex flex-col gap-6 flex-1">
             <a class="font-bold">Orenji Studio</a>
-            <a>Studio website</a>
-            <a>Pro access</a>
-            <a>Custom works</a>
-            <a>Freebies</a>
+            <a target="_blank" href="https://orenji.studio/">Studio website</a>
+            <a target="_blank" href="https://orenji.store/subscribe/">Pro access</a>
+            <a target="_blank" href="https://tally.so/r/wkNrkZ">Custom works</a>
+            <a target="_blank" href="https://orenji.store/assets-category/freebies/">Freebies</a>
           </div>
           <div class="flex flex-col gap-6 flex-1">
             <a class="font-bold">Products</a>
-            <a>UI Kits</a>
-            <a>3D & 2D Illustrations</a>
-            <a>Mockups</a>
-            <a>Fonts</a>
+            <a target="_blank" href="https://orenji.store/assets-category/ui-kit/">UI Kits</a>
+            <a target="_blank" href="https://orenji.store/assets-category/illustration/">3D & 2D Illustrations</a>
+            <a target="_blank" href="#">Mockups</a>
+            <a target="_blank" href="https://orenji.store/assets-category/graphic/icon/">Icons</a>
           </div>
         </div>
       </div>

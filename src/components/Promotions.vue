@@ -23,9 +23,14 @@
         </div>
       </div>
       <div class="flex justify-center mt-16">
-        <div class="text-3xl py-7 text-white bg-lavender rounded-2xl font-bold text-center w-[420px] effect-button">
+        <a 
+          target="_blank" 
+          rel="noopener noreferrer"
+          href="https://orenjistudio.gumroad.com/l/Tomodachi-AvatarLibrarybyorenji" 
+          class="text-3xl py-7 text-white bg-lavender rounded-2xl font-bold text-center w-[420px] effect-button"
+        >
           Buy now $29
-        </div>
+        </a>
       </div>
 
       <div
@@ -33,12 +38,17 @@
         <p class="text-3xl uppercase w-[370px] font-bold leading-tight tracking-tight">
           Get our regular avatar for free, download now
         </p>
-        <div class="flex bg-black effect-button-reverse rounded-2xl text-white text-2xl font-bold px-20 py-6 gap-8">
+        <a 
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://orenjistudio.gumroad.com/l/TomodachiRegulerFreeVersion"
+          class="flex bg-black effect-button-reverse rounded-2xl text-white text-2xl font-bold px-20 py-6 gap-8"
+        >
           <span>Download</span>
           <span>
             <img src="../assets/images/icons/arrow-down-icon.png" class="w-8 h-8 icon-social">
           </span>
-        </div>
+        </a>
       </div>
     </div>
   </section>

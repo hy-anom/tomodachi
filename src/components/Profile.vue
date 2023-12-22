@@ -29,9 +29,14 @@
         </div>
       </div>
       <div class="flex justify-center">
-        <div class="text-3xl py-7 text-white bg-lavender rounded-2xl font-bold text-center w-[420px] effect-button">
+        <a 
+          target="_blank" 
+          rel="noopener noreferrer"
+          href="https://orenjistudio.gumroad.com/l/Tomodachi-AvatarLibrarybyorenji" 
+          class="text-3xl py-7 text-white bg-lavender rounded-2xl font-bold text-center w-[420px] effect-button"        
+        >
           Buy now $29
-        </div>
+        </a>
       </div>
     </div>
   </section>
