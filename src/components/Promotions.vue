@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="mt-20 pb-10 flex justify-center w-full font-geist">
+  <section id="pricing" class="mt-20 pb-10 flex justify-center w-full font-geist">
     <div class="bg-shock-texture flex flex-col items-center flex-1">
       <div class="flex flex-col items-center tracking-tight">
         <h2 class="text-8xl uppercase font-light mb-6 text-white">Exclusive</h2>
@@ -36,7 +36,7 @@
       <div
         class="promotion-guys w-[1056px] h-[360px] flex flex-col justify-between items-baseline mt-32 p-12 bg-golden-yellow rounded-3xl">
         <p class="text-3xl uppercase w-[370px] font-bold leading-tight tracking-tight">
-          Get our regular avatar for free, download now
+          Get our Freebies!
         </p>
         <a 
           target="_blank"

@@ -6,7 +6,9 @@
   <section id="contact" class="flex justify-center w-full mt-20 font-geist">
     <div class="contact-gradient flex-1">
       <div class="bg-texture-flower p-20 flex flex-col items-center flex-1">
-        <p class="text-white text-5xl uppercase font-bold text-center max-w-[800px] leading-normal">Wanna custom your own avatar? let’s get contact</p>
+        <p class="text-white text-5xl uppercase font-bold text-center max-w-[800px] leading-normal">
+          Request customs avatar
+        </p>
         <div class="flex justify-center mt-14">
           <a 
             target="_blank"

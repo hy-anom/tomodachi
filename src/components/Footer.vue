@@ -30,16 +30,16 @@
           <div class="flex flex-col gap-6 flex-1">
             <a class="font-bold">Orenji Studio</a>
             <a target="_blank" href="https://orenji.studio/">Studio website</a>
-            <a target="_blank" href="https://orenji.store/subscribe/">Pro access</a>
+            <a target="_blank" href="https://orenjistudio.gumroad.com/l/Tomodachi-AvatarLibrarybyorenji">Pro access</a>
             <a target="_blank" href="https://tally.so/r/wkNrkZ">Custom works</a>
-            <a target="_blank" href="https://orenji.store/assets-category/freebies/">Freebies</a>
+            <a target="_blank" href="https://ui8.net/orenji-studio-2bd14c">Freebies</a>
           </div>
           <div class="flex flex-col gap-6 flex-1">
             <a class="font-bold">Products</a>
-            <a target="_blank" href="https://orenji.store/assets-category/ui-kit/">UI Kits</a>
-            <a target="_blank" href="https://orenji.store/assets-category/illustration/">3D & 2D Illustrations</a>
-            <a target="_blank" href="#">Mockups</a>
-            <a target="_blank" href="https://orenji.store/assets-category/graphic/icon/">Icons</a>
+            <a target="_blank" href="https://ui8.net/orenji-studio-2bd14c">UI Kits</a>
+            <a target="_blank" href="https://ui8.net/orenji-studio-2bd14c">3D & 2D Illustrations</a>
+            <a target="_blank" href="https://ui8.net/orenji-studio-2bd14c">Mockups</a>
+            <a target="_blank" href="https://ui8.net/orenji-studio-2bd14c">Icons</a>
           </div>
         </div>
       </div>

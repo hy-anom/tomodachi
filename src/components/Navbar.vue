@@ -1,5 +1,14 @@
-<script setup lang="ts">
-
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  methods: {
+    gotoPricing() {
+      const el = document.getElementById('pricing');
+      if(el)
+        el.scrollIntoView({behavior: "smooth"});
+    }
+  }
+})
 </script>
 
 <template>
@@ -21,14 +30,8 @@
       <div class="text-sm lg:flex-grow">
       </div>
       <div>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange mr-8">
-          Our works
-        </a>
-        <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange mr-8">
+        <a href="#" @click="gotoPricing" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange mr-8">
           Pricing
-        </a>
-        <a href="https://orenji.store/assets-category/freebies/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-orange">
-          Freebies
         </a>
       </div>
     </div>
@@ -38,8 +41,9 @@
 <style scoped lang="scss">
 .icon-social {
   transition: ease-in 0.3s;
+
   &:hover {
-    transform:scale(130%);
+    transform: scale(130%);
     filter: brightness(75%);
   }
 }
