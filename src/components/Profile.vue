@@ -5,26 +5,26 @@
 <template>
   <section id="profile" class="flex justify-center w-full font-geist">
     <div class="flex flex-col items-center bg-texture-wavy pt-40 flex-1">
-      <div class="profile flex justify-center gap-5 text-center">
+      <div class="profile md:h-[480px] flex flex-col md:flex-row justify-center gap-28 md:gap-5 text-center">
         <div class="profile-card">
           <div class="card card-1 flex flex-col items-center">
-            <div class="profile-icon h-60 w-60 icon icon-1"></div>
-            <h3 class="text-xl font-bold uppercase leading-6">Highly detailed 3D character models.</h3>
-            <p class="text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
+            <div class="profile-icon h-40 w-40 md:h-60 md:w-60 icon icon-1"></div>
+            <h3 class="text-md md:text-xl font-bold uppercase leading-6">Highly detailed 3D character models.</h3>
+            <p class="text-md md:text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
           </div>
         </div>
         <div class="profile-card">
           <div class="card card-2 flex flex-col items-center">
-            <div class="profile-icon h-60 w-60 icon icon-2"></div>
-            <h3 class="text-xl font-bold uppercase leading-6">3000x3000 px resolution.</h3>
-            <p class="text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
+            <div class="profile-icon h-40 w-40 md:h-60 md:w-60 icon icon-2"></div>
+            <h3 class="text-md md:text-xl font-bold uppercase leading-6">3000x3000 px resolution.</h3>
+            <p class="text-md md:text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
           </div>
         </div>
         <div class="profile-card">
           <div class="card card-3 flex flex-col items-center">
-            <div class="profile-icon h-60 w-60 icon icon-3"></div>
-            <h3 class="text-xl font-bold uppercase leading-6">INCLUDING TRANSPARENT PNG FILES</h3>
-            <p class="text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
+            <div class="profile-icon h-40 w-40 md:h-60 md:w-60 icon icon-3"></div>
+            <h3 class="text-md md:text-xl font-bold uppercase leading-6">INCLUDING TRANSPARENT PNG FILES</h3>
+            <p class="text-md md:text-xl font-light mt-6 text-black opacity-50">Very high-quality and highly-detailed 3D character models.</p>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@
           target="_blank" 
           rel="noopener noreferrer"
           href="https://orenjistudio.gumroad.com/l/Tomodachi-AvatarLibrarybyorenji" 
-          class="text-3xl py-7 text-white bg-lavender rounded-2xl font-bold text-center w-[420px] effect-button"        
+          class="text-xl mt-20 md:mt-2 md:text-3xl text-white bg-lavender rounded-2xl font-bold text-center w-[480px] md:w-[420px] py-4 md:py-7 effect-button"
         >
           Buy now $29
         </a>
@@ -42,10 +42,7 @@
   </section>
 </template>
 
-<style scoped>
-.profile {
-  height: 480px;
-}
+<style scoped lang="scss">
 
 .profile .icon {
   background-position: center;
@@ -60,6 +57,12 @@
   max-width: 420px;
   background-repeat: no-repeat;
   padding: 20px 60px;
+  @media screen and (max-width: 768px) {
+    height: 280px;
+    max-width: 280px;
+    padding: 10px 30px;
+    border-radius: 20px;
+  }
 }
 
 .profile .icon-1 {

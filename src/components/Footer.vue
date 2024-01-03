@@ -5,7 +5,7 @@
 <template>
   <section id="footer" class="flex justify-center font-geist">
     <div class="bg-white flex-1 pt-10">
-      <div class=" text-base tracking-tight flex flex-row py-10 px-40 gap-6">
+      <div class=" text-base tracking-tight flex flex-col md:flex-row py-10 px-10 md:px-40 gap-6">
         <div class="flex flex-col gap-10 flex-1">
           <div class="flex items-flex-start gap-2">
             <img src="../assets/images/logo-orenji.png" class="w-10 h-10">
@@ -26,7 +26,7 @@
             </a>
           </div>
         </div>
-        <div class="flex gap-6 flex-1">
+        <div class="flex gap-6 flex-row flex-1 mt-6">
           <div class="flex flex-col gap-6 flex-1">
             <a class="font-bold">Orenji Studio</a>
             <a target="_blank" href="https://orenji.studio/">Studio website</a>

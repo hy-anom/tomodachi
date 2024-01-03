@@ -169,29 +169,29 @@ export default defineComponent({
       <div class="bg-texture-wavy-grids bg-golden-yellow pt-20">
         <div class=" bg-50-texture-grids w-full pt-20 relative">
           <div class="flex flex-col items-center tracking-tight">
-            <h2 class="text-8xl uppercase mb-6">50 Avatars</h2>
-            <p class="text-6xl uppercase text-white bg-lavender mb-20 px-2.5 pb-2.5 pt-2.5">And WILL CONTINUE UPDATED!</p>
+            <h2 class="text-6xl md:text-8xl uppercase mb-6">50 Avatars</h2>
+            <p class="text-3xl md:text-6xl uppercase text-white bg-lavender px-2.5 pb-2.5 pt-2.5">And WILL CONTINUE UPDATED!</p>
           </div>
           <!-- tab starts -->
-          <div class="mt-10 flex flex-col items-center pb-32">
+          <div class="mt-10 flex flex-col items-center pb-32 md:mt-20 ">
             <!-- tab header -->
-            <div class="flex bg-white rounded-lg p-5 gap-5 text-3xl font-bold mb-20">
+            <div class="flex bg-white rounded-lg p-2 md:p-5 gap-2 md:gap-5 text:xl md:text-3xl font-bold mb-8 md:mb-20">
               <div 
-                class="bg-ghost-white py-8 px-16 rounded-lg effect-button"
+                class="bg-ghost-white py-4 px-8 md:py-8 md:px-16 rounded-lg effect-button"
                 :class="{ 'bg-orange text-white': activeTab === 'unique' }" 
                 @click="changeActiveTab('unique')"
               >
                 Characters
               </div>
               <div 
-                class="bg-ghost-white py-8 px-16 rounded-lg effect-button"
+                class="bg-ghost-white py-4 px-8 md:py-8 md:px-16 rounded-lg effect-button"
                 :class="{ 'bg-orange text-white': activeTab === 'profession' }"  
                 @click="changeActiveTab('profession')"
               >
                 Profession
               </div>
               <div 
-                class="bg-ghost-white py-8 px-16 rounded-lg effect-button" 
+                class="bg-ghost-white py-4 px-8 md:py-8 md:px-16 rounded-lg effect-button" 
                 :class="{ 'bg-orange text-white': activeTab === 'freebies' }"  
                 @click="changeActiveTab('freebies')"
               >
@@ -202,9 +202,9 @@ export default defineComponent({
             <div class="flex gap-5 mt-5 flex-wrap justify-center overflow-hidden pb-20 pt-5 max-w-[1200px]">
               <template v-if="activeTab === 'unique'">
                 <div v-for="unique, index in uniqueList"
-                  class="w-60 rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
+                  class="w-52 md:w-60 h-60 md:h-[17rem] rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
-                  <div class="avatar-photo"
+                  <div class="avatar-photo w-full h-56"
                     :style="{ backgroundImage: `url('/tomodachi/avatars/unique/${unique.image}')` }" />
                   <p class="flex items-center justify-center gap-2 mt-2 px-2">
                     <span class="font-bold text-l">{{ unique.title }}</span>
@@ -214,9 +214,9 @@ export default defineComponent({
               </template>
               <template v-if="activeTab === 'profession'">
                 <div v-for="profession, index in professionList"
-                  class="w-60 rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
+                  class="w-52 md:w-60 h-60 md:h-[17rem] rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
-                  <div class="avatar-photo"
+                  <div class="avatar-photo w-full h-56"
                     :style="{ backgroundImage: `url('/tomodachi/avatars/profession/${profession.image}')` }" />
                   <p class="flex items-center justify-center gap-2 mt-2 px-2">
                     <span class="font-bold text-l">{{ profession.title }}</span>
@@ -225,9 +225,9 @@ export default defineComponent({
               </template>
               <template v-if="activeTab === 'freebies'">
                 <div v-for="freebies, index in freebiesList"
-                  class="w-60 rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
+                  class="w-52 md:w-60 h-60 md:h-[17rem] rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
-                  <div class="avatar-photo"
+                  <div class="avatar-photo w-full h-56"
                     :style="{ backgroundImage: `url('/tomodachi/avatars/freebies/${freebies.image}')` }" />
                   <p class="flex items-center justify-center gap-2 mt-2 px-2">
                     <span class="font-bold text-l">{{ freebies.title }}</span>
@@ -243,7 +243,7 @@ export default defineComponent({
               target="_blank"
               rel="noopener noreferrer"
               href="https://orenjistudio.gumroad.com/l/Tomodachi-AvatarLibrarybyorenji"
-              class="flex items-center gap-8 bg-black text-xl text-white py-5 px-10 rounded-full font-bold tilt-shake"
+              class="flex items-center gap-8 bg-black text-md md:text-xl text-white py-5 px-10 rounded-full font-bold tilt-shake"
             >
               <p><img src="../assets/images/icons/fluent-emoji_megaphone.png" class="w-12 h-12"></p>
               <p>Browse more avatars!</p>
@@ -276,6 +276,9 @@ export default defineComponent({
   background-position-y: bottom;
   height: 300px;
   width: 100%;
+  @media screen and (max-width: 768px) {
+    height: 200px;
+  }
 }
 
 .avatar-grids-bottom {
@@ -289,8 +292,6 @@ export default defineComponent({
 }
 
 .avatar-photo {
-  height: 220px;
-  width: 220px;
   background-position-x: center;
   background-position-y: bottom;
   background-repeat: no-repeat;
