@@ -163,7 +163,7 @@ export default defineComponent({
       <div class="flex rotate--2">
         <div class="flex gap-5 mr-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
           <div v-for="unique, index in uniqueList" class="w-60 rounded-lg" :key="index">
-            <div class="avatar-photo" :style="{ backgroundImage: `url('/tomodachi/avatars-small/unique/${unique.image}')` }" />
+            <div class="avatar-photo" :style="{ backgroundImage: `url('/avatars-small/unique/${unique.image}')` }" />
           </div>
         </div>
       </div>
@@ -172,7 +172,7 @@ export default defineComponent({
           <div v-for="profession, index in professionList" class="w-60 rounded-lg"
             :keys="index">
             <div class="avatar-photo"
-              :style="{ backgroundImage: `url('/tomodachi/avatars-small/profession/${profession.image}')` }" />
+              :style="{ backgroundImage: `url('/avatars-small/profession/${profession.image}')` }" />
           </div>
         </div>
         </div>
@@ -180,7 +180,7 @@ export default defineComponent({
         <div class="flex gap-5 mr-5" v-for="count, i in 5" :class="{ 'slides-reverse': i < 1 }" :key="i">
           <div v-for="freebies, index in freebiesList" class="w-60 rounded-lg" :keys="index">
             <div class="avatar-photo"
-              :style="{ backgroundImage: `url('/tomodachi/avatars-small/freebies/${freebies.image}')` }" />
+              :style="{ backgroundImage: `url('/avatars-small/freebies/${freebies.image}')` }" />
           </div>
         </div>
       </div>
