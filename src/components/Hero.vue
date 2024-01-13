@@ -186,7 +186,7 @@ export default defineComponent({
       </div>
     </div>
     <h2 class="text-xl md:text-3xl bg-golden-yellow rounded-lg py-2.5 px-8 font-bold text-black">Tomodachi</h2>
-    <h1 class="text-3xl md:text-6xl uppercase leading-tight font-bold text-center tracking-tight mt-5">
+    <h1 class="text-4xl md:text-6xl uppercase leading-normal md:leading-tight font-bold text-center tracking-tight mt-5">
       Cute 3d avatar for your design
     </h1>
     <div class="flex overflow-hidden w-full mt-10 ribbon-container">

@@ -170,28 +170,30 @@ export default defineComponent({
         <div class=" bg-50-texture-grids w-full pt-20 relative">
           <div class="flex flex-col items-center tracking-tight">
             <h2 class="text-6xl md:text-8xl uppercase mb-6">50 Avatars</h2>
-            <p class="text-3xl md:text-6xl uppercase text-white bg-lavender px-2.5 pb-2.5 pt-2.5">And WILL CONTINUE UPDATED!</p>
+            <div class="px-4">
+              <p class="text-3xl md:text-6xl uppercase bg-lavender text-center text-white py-2.5 px-2.5">And WILL CONTINUE UPDATED!</p>
+            </div>
           </div>
           <!-- tab starts -->
           <div class="mt-10 flex flex-col items-center pb-32 md:mt-20 ">
             <!-- tab header -->
             <div class="flex bg-white rounded-lg p-2 md:p-5 gap-2 md:gap-5 text:xl md:text-3xl font-bold mb-8 md:mb-20">
               <div 
-                class="bg-ghost-white py-4 px-8 md:py-8 md:px-16 rounded-lg effect-button"
+                class="bg-ghost-white py-3.5 px-4 md:py-8 md:px-16 rounded-lg effect-button"
                 :class="{ 'bg-orange text-white': activeTab === 'unique' }" 
                 @click="changeActiveTab('unique')"
               >
                 Characters
               </div>
               <div 
-                class="bg-ghost-white py-4 px-8 md:py-8 md:px-16 rounded-lg effect-button"
+                class="bg-ghost-white py-3.5 px-4 md:py-8 md:px-16 rounded-lg effect-button"
                 :class="{ 'bg-orange text-white': activeTab === 'profession' }"  
                 @click="changeActiveTab('profession')"
               >
                 Profession
               </div>
               <div 
-                class="bg-ghost-white py-4 px-8 md:py-8 md:px-16 rounded-lg effect-button" 
+                class="bg-ghost-white py-3.5 px-4 md:py-8 md:px-16 rounded-lg effect-button" 
                 :class="{ 'bg-orange text-white': activeTab === 'freebies' }"  
                 @click="changeActiveTab('freebies')"
               >
@@ -199,38 +201,38 @@ export default defineComponent({
               </div>
             </div>
             <!-- tab content -->
-            <div class="flex gap-5 mt-5 flex-wrap justify-center overflow-hidden pb-20 pt-5 max-w-[1200px]">
+            <div class="flex gap-2 md:gap-5 mt-5 flex-wrap justify-center overflow-hidden pb-20 pt-5 px-4 max-w-[1200px]">
               <template v-if="activeTab === 'unique'">
                 <div v-for="unique, index in uniqueList"
-                  class="w-52 md:w-60 h-60 md:h-[17rem] rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
+                  class="half-card-col grow md:grow-0 h-52 md:w-60 md:h-[17rem] rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
-                  <div class="avatar-photo w-full h-56"
+                  <div class="avatar-photo w-full h-full"
                     :style="{ backgroundImage: `url('/avatars/unique/${unique.image}')` }" />
                   <p class="flex items-center justify-center gap-2 mt-2 px-2">
-                    <span class="font-bold text-l">{{ unique.title }}</span>
+                    <span class="font-bold text-sm md:text-lg">{{ unique.title }}</span>
                     <!-- <span class="inline-block bg-lavender uppercase py-0.5 px-1.5 text-white rounded text-xs">Subs</span> -->
                   </p>
                 </div>
               </template>
               <template v-if="activeTab === 'profession'">
                 <div v-for="profession, index in professionList"
-                  class="w-52 md:w-60 h-60 md:h-[17rem] rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
+                  class="half-card-col grow md:grow-0 h-52 md:w-60 md:h-[17rem] rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
-                  <div class="avatar-photo w-full h-56"
+                  <div class="avatar-photo w-full h-full"
                     :style="{ backgroundImage: `url('/avatars/profession/${profession.image}')` }" />
                   <p class="flex items-center justify-center gap-2 mt-2 px-2">
-                    <span class="font-bold text-l">{{ profession.title }}</span>
+                    <span class="font-bold text-sm md:text-lg">{{ profession.title }}</span>
                   </p>
                 </div>
               </template>
               <template v-if="activeTab === 'freebies'">
                 <div v-for="freebies, index in freebiesList"
-                  class="w-52 md:w-60 h-60 md:h-[17rem] rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
+                  class="half-card-col grow md:grow-0 h-52 md:w-60 md:h-[17rem] rounded-[20px] bg-white flex flex-col items-flex-start p-2.5 card-effect cursor-pointer"
                   :keys="index">
-                  <div class="avatar-photo w-full h-56"
+                  <div class="avatar-photo w-full h-full"
                     :style="{ backgroundImage: `url('/avatars/freebies/${freebies.image}')` }" />
                   <p class="flex items-center justify-center gap-2 mt-2 px-2">
-                    <span class="font-bold text-l">{{ freebies.title }}</span>
+                    <span class="font-bold text-sm md:text-lg">{{ freebies.title }}</span>
                   </p>
                 </div>
               </template>
@@ -238,16 +240,16 @@ export default defineComponent({
           </div>
           <!-- tab ends -->
           <div
-            class="flex items-end justify-center h-[420px] w-full absolute bottom-12 bg-gradient-to-b from-transparent to-golden-yellow to-70%">
+            class="flex items-end justify-center h-[420px] w-full absolute bottom-12 px-4 bg-gradient-to-b from-transparent to-golden-yellow to-70%">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://orenjistudio.gumroad.com/l/Tomodachi-AvatarLibrarybyorenji"
-              class="flex items-center gap-8 bg-black text-md md:text-xl text-white py-5 px-10 rounded-full font-bold tilt-shake"
+              class="flex items-center gap-3 md:gap-8 bg-black text-md md:text-xl text-white py-5 px-10 rounded-full font-bold tilt-shake"
             >
-              <p><img src="../assets/images/icons/fluent-emoji_megaphone.png" class="w-12 h-12"></p>
-              <p>Browse more avatars!</p>
-              <p class="text-white opacity-50">Check it out</p>
+              <p><img src="../assets/images/icons/fluent-emoji_megaphone.png" class="w-8 h-8 md:w-12 md:h-12"></p>
+              <p class="text-sm md:text-md">Browse more avatars!</p>
+              <p class="text-white opacity-50 text-sm md:text-md">Check it out</p>
             </a>
           </div>
         </div>
@@ -266,6 +268,12 @@ export default defineComponent({
 
 .avatar-grids {
   padding-top: 200px;
+}
+
+.half-card-col {
+  @media screen and (max-width: 640px) {
+    flex-basis: calc(50% - 0.5rem);
+  }
 }
 
 .avatar-grids-top {

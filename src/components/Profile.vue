@@ -28,12 +28,12 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-center">
+      <div class="flex justify-center w-full md:w-[420px] px-4">
         <a 
           target="_blank" 
           rel="noopener noreferrer"
           href="https://orenjistudio.gumroad.com/l/Tomodachi-AvatarLibrarybyorenji" 
-          class="text-xl mt-20 md:mt-2 md:text-3xl text-white bg-lavender rounded-2xl font-bold text-center w-[480px] md:w-[420px] py-4 md:py-7 effect-button"
+          class="text-xl mt-20 md:mt-2 md:text-3xl text-white bg-lavender rounded-2xl font-bold text-center w-full py-4 md:py-7 effect-button"
         >
           Buy now $29
         </a>
